@@ -1,17 +1,10 @@
-html, body {
-height: 100%;
-margin: 0;
-}
-
 body {
-display: flex;
-flex-direction: column;
+margin: 0;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background: url('background.jpg') no-repeat center center fixed;
 background-size: cover;
 color: #222;
 }
-
 .intro {
 background-color: rgba(255, 255, 255, 0.9);
 max-width: 800px;
@@ -19,33 +12,32 @@ margin: 100px auto;
 padding: 40px;
 border-radius: 10px;
 text-align: center;
-flex: 1; /* allow content to grow */
 }
-
 .intro h1 {
 font-size: 36px;
 margin-bottom: 10px;
 }
-
 .intro h2 {
 font-style: italic;
 margin-bottom: 20px;
 }
-
 .intro p {
 font-size: 16px;
 line-height: 1.6;
 }
-
 .intro a {
 color: green;
 text-decoration: none;
 }
-
 footer {
 background-color: #1a1a1a;
 color: white;
 text-align: center;
 padding: 15px 10px;
 width: 100%;
+}
+.social-icons img {
+width: 24px;
+margin: 0 8px;
+vertical-align: middle;
 }

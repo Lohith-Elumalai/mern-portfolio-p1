@@ -8,6 +8,7 @@ body {
   min-height: 100vh;
   padding: 20px;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -21,11 +22,11 @@ body {
 }
 
 footer {
-  flex-shrink: 0; /* Add this line */
-  background-color: #1a1a1a;
-  color: white;
-  text-align: center;
-  padding: 15px 10px;
+background-color: #1a1a1a;
+color: white;
+text-align: center;
+padding: 15px 10px;
+width: 100%;
 }
 
 
